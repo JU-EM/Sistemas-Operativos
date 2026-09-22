@@ -1,0 +1,60 @@
+==========================================
+       MONITOR DEL SISTEMA ANDROID
+==========================================
+
+[ SISTEMA ]
+Sistema operativo: Android 15
+Kernel: 6.1.115-android14-11-gfaa9b1b32a11-ab13269000
+Arquitectura: aarch64
+Fabricante: Xiaomi
+Modelo: 24095PCADG
+
+[ CPU ]
+Núcleos: 8
+Núcleos activos: 0-7
+
+[ MEMORIA RAM ]
+               total        used        free      shared  buff/cache   available
+Mem:           7.3Gi       4.0Gi        98Mi        22Mi       3.1Gi       3.4Gi
+Swap:          6.0Gi       1.3Gi       4.7Gi
+
+[ ALMACENAMIENTO ]
+Filesystem      Size Used Avail Use% Mounted on
+/dev/fuse       227G 147G   80G  65% /storage/emulated
+
+[ PROCESOS VISIBLES ]
+[H[J[?25l[H[JTasks: 5 total,   1 running,   4 sleeping,   0 stopped,   0 zombie
+  Mem:  7607128K total,  7493520K used,   113608K free,     2204K buffers
+ Swap:  6291452K total,  1321220K used,  4970232K free,  2986968K cached
+800%cpu   0%user   0%nice   0%sys 800%idle   0%iow   0%irq   0%sirq   0%host
+[7m   PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS                  [0m
+ 23374 u0_a202      10 -10  10G 4.5M 3.3M S  0.0   0.0   0:00.00 head /data/data/com.t+
+[1m 23373 u0_a202      10 -10  10G 3.9M 3.2M R  0.0   0.0   0:00.01 top -n 1[m
+ 23355 u0_a202      10 -10  10G 4.4M 3.3M S  0.0   0.0   0:00.01 tee /data/data/com.te+
+ 23354 u0_a202      10 -10  10G 4.4M 3.5M S  0.0   0.0   0:00.02 monitor_android.sh /d+
+ 20760 u0_a202      10 -10  10G 4.9M 3.7M S  0.0   0.0   0:00.08 bash /data/data/com.t+[?25h[0m[999H[K[?25h[?25h[0m[999H[K
+[ BATERÍA ]
+{
+  "present": true,
+  "technology": "Li-poly",
+  "health": "GOOD",
+  "plugged": "UNPLUGGED",
+  "status": "DISCHARGING",
+  "temperature": 26.0,
+  "voltage": 4323,
+  "current": -585900,
+  "current_average": -501000,
+  "percentage": 100,
+  "level": 100,
+  "scale": 100,
+  "charge_counter": 5110000,
+  "energy": null,
+  "cycle": 1527
+}
+
+[ GPU ]
+Información detallada: restringida por Android/Termux
+
+==========================================
+          FIN DEL MONITOR
+==========================================
